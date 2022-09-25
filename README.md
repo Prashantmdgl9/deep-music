@@ -8,17 +8,17 @@ Original code belongs to Mikael Alafriz.
 ## Required Packages
 
 
-torch==1.8.1
-torchvision==0.9.1
-torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
-click
-requests
-ninja
-imageio i
-mageio-ffmpeg
-tqdm
-psutil
-scipy
+torch==1.8.1 <br>
+torchvision==0.9.1 <br>
+torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html <br>
+click <br>
+requests <br>
+ninja <br>
+imageio <br>
+imageio-ffmpeg <br>
+tqdm <br>
+psutil <br>
+scipy <br>
 
 If moviepy is misbehaving then run `` pip uninstall moviepy decorator and then pip install moviepy``
 Also, try to run ``pip install ffmpeg`` if you run into issues.
