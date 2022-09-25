@@ -28,7 +28,9 @@ Also, try to run ``pip install ffmpeg`` if you run into issues.
 In my various experiments, I found out that conda based virtual environment worked better than the pip one. You might have a different experience but it's safe to create a virtual env before trying out any experiments.
 
 ``
-conda create --name env_1 python=3.9
+conda create --name env_1 python=3.9 ``
+<br>
+``
 conda activate env_1
 ``
 
